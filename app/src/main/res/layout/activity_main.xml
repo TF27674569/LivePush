@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/suface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    <Button
+        android:onClick="start"
+        android:layout_width="wrap_content"
+        android:text="开始"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="switchCamera"
+        android:layout_width="wrap_content"
+        android:text="切换摄像头"
+        android:layout_marginLeft="100dp"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
